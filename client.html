@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta http-equiv="refresh" content="5">
+
+<link href="bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="bootstrap.min.js"></script>
+
+<script src="client.js">
+
+
+</script>
+
+</head>
+<body onload="loadDoc()">
+	<div class="container" align: center;>
+
+		<div class="jumbotron" id="contant">
+			<h1 id="title">Personal Data</h1>  
+			
+		<div id="error"></div>   
+		
+		<table class="table table-stripedtable-responsive">
+			<strong>
+					<tbody>
+						<tr>
+							<td>Name: </td>
+							<td id="Name"></td>
+						</tr>
+						<tr>
+    
+							<td>Email:</td>
+							<td id="Email"></td>
+						</tr>
+					</tbody>
+			</strong>
+		</table>
+		<button class="btn btn-primary" type="button" onclick="loadDoc()">Refresh</button>
+		</div>
+	</div>
+
+</body>
+</html>
